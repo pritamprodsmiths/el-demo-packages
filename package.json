@@ -1,0 +1,30 @@
+{
+  "name": "el-demo-packages",
+  "version": "1.0.0",
+  "description": "reusable packages test",
+  "source": "index.js",
+  "main": "dist/el-demo-packages.js",
+  "umd:main": "dist/el-demo-packages.umd.js",
+  "module": "dist/el-demo-packages.m.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritamprodsmiths/el-demo-packages.git"
+  },
+  "keywords": [
+    "el-demo-packages"
+  ],
+  "author": "pritam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pritamprodsmiths/el-demo-packages/issues"
+  },
+  "homepage": "https://github.com/pritamprodsmiths/el-demo-packages#readme",
+  "devDependencies": {
+    "microbundle": "^0.14.2"
+  }
+}
